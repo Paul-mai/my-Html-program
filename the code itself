@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Paul Maisiba PAULISTA </title>
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: hsl(0, 0%, 95%);
+            color: #222222;
+        }
+
+        /* Header */
+        header {
+            background-color: hsl(298, 76%, 31%);
+            color: rgb(221, 230, 228);
+            text-align: center;
+            padding: 40px;
+        }
+
+        header h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 20px;
+        }
+
+        /* About section */
+        .about {
+            background-color: rgb(220, 228, 231);
+            width: 80%;
+            margin: 30px auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(24, 185, 193, 0.925);
+        }
+
+        .about h2 {
+            color: #081fb3;
+        }
+
+        .about p {
+            font-size: 18px;
+        }
+
+        /* Skills */
+        .skills {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .skill {
+            background-color: #02040c;
+            color: rgb(228, 237, 239);
+            padding: 12px 20px;
+            border-radius: 20px;
+        }
+
+        /* Pictures */
+        .gallery {
+            width: 90%;
+            margin: 40px auto;
+        }
+
+        .gallery h2 {
+            text-align: center;
+            color: #b30c0c;
+            font-size: 30px;
+        }
+
+        .photos {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .photos img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 3px 8px rgba(205, 148, 25, 0.929);
+        }
+
+        .photos img:hover {
+            transform: scale(1.03);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #180db4;
+            color: rgb(217, 214, 231);
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        /* Mobile phones */
+        @media (max-width: 700px) {
+
+            .photos {
+                grid-template-columns: 1fr;
+            }
+
+            .about {
+                width: 85%;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <h1>Paul Maisiba</h1>
+
+        <p>IT Student | Actor | Dancer | IT Tech</p>
+
+    </header>
+
+
+    <!-- About Me -->
+    <section class="about">
+
+        <h2>About Me</h2>
+
+        <p>
+            <strong>Name:</strong> Paul Maisiba<br>PAULISTA<br>
+            <strong>Age:</strong> 20<br>
+            <strong>Location:</strong> Nairobi, Kenya
+        </p>
+
+        <p>
+            <strong>Career:</strong> IT Student
+        </p>
+
+
+        <h2>My Skills</h2>
+
+        <div class="skills">
+
+            <div class="skill">
+                Acting
+            </div>
+
+            <div class="skill">
+                Dancing
+            </div>
+
+            <div class="skill">
+                IT Tech
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Picture Gallery -->
+    <section class="gallery">
+
+        <h2>My Pictures</h2>
+
+        <div class="photos">
+
+            <img src="C:\Users\PAULISTA\Desktop\html\PAU1.jpeg" alt="Paul Maisiba">
+
+            <img src="C:\Users\PAULISTA\Desktop\html\PAU 2.jpeg" alt="Paul Maisiba">
+
+            <img src="C:\Users\PAULISTA\Desktop\html\PAU3.jpeg" alt="Paul Maisiba">
+
+            <img src="C:\Users\PAULISTA\Desktop\html\PAU4.jpeg" alt="Paul Maisiba">
+
+            <img src="C:\Users\PAULISTA\Desktop\html\PAU5.jpeg" alt="Paul Maisiba">
+
+            <img src="C:\Users\PAULISTA\Desktop\html\PAU6.jpeg" alt="Paul Maisiba">
+
+        </div>
+        <!-- My Video -->
+<section class="gallery">
+
+    <h2>My Video</h2>
+
+    <a href="video1.mp4" target="_blank" class="video-button">
+        ▶ Watch My Video
+    </a>
+
+</section>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 Paul Maisiba
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
